@@ -1,0 +1,33 @@
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from app.config import settings
+
+from app.database import engine, Base
+from app.routers import patients, doctors  # Diğer router’lar da buraya eklenebilir
+
+app = FastAPI()
+
+# Veritabanındaki tabloları oluştur (eğer yoksa)
+Base.metadata.create_all(bind=engine)
+
+# CORS ayarları
+origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,      # React uygulamanızın adresleri
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Router’ları ekle
+app.include_router(patients.router, prefix="/patients", tags=["patients"])
+app.include_router(doctors.router, prefix="/doctors", tags=["doctors"])
+
+@app.get("/")
+async def root():
+    return {"app_name": settings.app_name, "admin_email": settings.admin_email}

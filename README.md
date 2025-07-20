@@ -1,0 +1,1 @@
+ # Proje açıklaması ve kurulum bilgileri
