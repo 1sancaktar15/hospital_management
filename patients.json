@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Arş. Gör. Servinaz Bezek Bilgin",
+    "gender": "Erkek",
+    "birth_date": "1943-07-22",
+    "age": 82,
+    "phone": "0143-258 6414",
+    "email": "fturk@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Pürçek Zorlu",
+    "gender": "Erkek",
+    "birth_date": "1996-08-29",
+    "age": 28,
+    "phone": "08928892050",
+    "email": "firatnesip@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Şehreban Gülüs Öcalan Gül",
+    "gender": "Kadın",
+    "birth_date": "1940-12-11",
+    "age": 84,
+    "phone": "968 2 980",
+    "email": "akcaalgis@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Av. Elvan Merva Akgündüz Ergül",
+    "gender": "Erkek",
+    "birth_date": "1936-12-24",
+    "age": 88,
+    "phone": "+90 (702) 0252729",
+    "email": "dursadiye99@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Bayan Selmin Hezniye Yorulmaz Gülen",
+    "gender": "Kadın",
+    "birth_date": "1935-12-01",
+    "age": 89,
+    "phone": "00973604674",
+    "email": "havse66@example.org"
+  },
+  {
+    "id": 6,
+    "name": "Seyyide Gülen Ülker",
+    "gender": "Erkek",
+    "birth_date": "2025-06-06",
+    "age": 0,
+    "phone": "217 7 697",
+    "email": "gulseren34@example.net"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Nural Tarancı Gül",
+    "gender": "Kadın",
+    "birth_date": "1987-11-04",
+    "age": 37,
+    "phone": "803 9 488",
+    "email": "gungorduerdogan@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Öğr. Narhanim Selmin Aslan Güçlü",
+    "gender": "Erkek",
+    "birth_date": "1936-03-12",
+    "age": 89,
+    "phone": "(642)420 8324",
+    "email": "htevetoglu@example.net"
+  },
+  {
+    "id": 9,
+    "name": "Mertel Korutürk",
+    "gender": "Erkek",
+    "birth_date": "1982-05-10",
+    "age": 43,
+    "phone": "+90(925)262-1519x918",
+    "email": "andicsezgin@example.org"
+  },
+  {
+    "id": 10,
+    "name": "Özdal Bilgütay Mansız Tevetoğlu",
+    "gender": "Kadın",
+    "birth_date": "1958-10-10",
+    "age": 66,
+    "phone": "798 1 630",
+    "email": "ufukay09@example.net"
+  },
+  {
+    "id": 11,
+    "name": "Dilşat Arsoy Şama",
+    "gender": "Kadın",
+    "birth_date": "1994-01-23",
+    "age": 31,
+    "phone": "0528-039 6378",
+    "email": "ongen00@example.org"
+  },
+  {
+    "id": 12,
+    "name": "Göksev Tanır Ertaş Manço",
+    "gender": "Erkek",
+    "birth_date": "1962-12-07",
+    "age": 62,
+    "phone": "(565)787 2225",
+    "email": "bilginkezban@example.org"
+  },
+  {
+    "id": 13,
+    "name": "Hoşkadem Arslan",
+    "gender": "Kadın",
+    "birth_date": "1983-01-18",
+    "age": 42,
+    "phone": "526 9 423",
+    "email": "oguclu@example.com"
+  },
+  {
+    "id": 14,
+    "name": "Aykutalp Yaman",
+    "gender": "Kadın",
+    "birth_date": "1965-02-01",
+    "age": 60,
+    "phone": "+90 (835) 4396748",
+    "email": "sensoygilman@example.net"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Selâtin Ertaş",
+    "gender": "Kadın",
+    "birth_date": "1979-10-24",
+    "age": 45,
+    "phone": "0657-927 9018",
+    "email": "kumral78@example.org"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Elvan Alemdar Soylu",
+    "gender": "Erkek",
+    "birth_date": "1998-01-26",
+    "age": 27,
+    "phone": "(054)400 5384",
+    "email": "ayaman@example.com"
+  },
+  {
+    "id": 17,
+    "name": "Bay Atalay Zengin",
+    "gender": "Kadın",
+    "birth_date": "1949-11-11",
+    "age": 75,
+    "phone": "830 5 450",
+    "email": "faizesama@example.com"
+  },
+  {
+    "id": 18,
+    "name": "Okt. Altınçiçek Adila Akgündüz Şafak",
+    "gender": "Kadın",
+    "birth_date": "2016-01-25",
+    "age": 9,
+    "phone": "+90(804)9156411",
+    "email": "naideyilmaz@example.com"
+  },
+  {
+    "id": 19,
+    "name": "İçimbike İde Akar",
+    "gender": "Kadın",
+    "birth_date": "1987-10-02",
+    "age": 37,
+    "phone": "01404520703",
+    "email": "koncagulbilir@example.org"
+  },
+  {
+    "id": 20,
+    "name": "Ozansü Sakarya",
+    "gender": "Erkek",
+    "birth_date": "1936-12-27",
+    "age": 88,
+    "phone": "0401-673 2621",
+    "email": "yukselserma@example.org"
+  },
+  {
+    "id": 21,
+    "name": "Yıldır Kısakürek",
+    "gender": "Kadın",
+    "birth_date": "2012-11-01",
+    "age": 12,
+    "phone": "+90 (956) 5820200",
+    "email": "armahan83@example.net"
+  },
+  {
+    "id": 22,
+    "name": "Tamaydın Eşref Çorlu Hançer",
+    "gender": "Erkek",
+    "birth_date": "2004-05-11",
+    "age": 21,
+    "phone": "0019-288 1167",
+    "email": "goknurcorlu@example.org"
+  },
+  {
+    "id": 23,
+    "name": "Okt. Yalazabay Alpcan Erdoğan",
+    "gender": "Erkek",
+    "birth_date": "1997-10-17",
+    "age": 27,
+    "phone": "+90(762)764-4106x5963",
+    "email": "aksogutturk@example.net"
+  },
+  {
+    "id": 24,
+    "name": "Okt. Piran Aral Ergül Yorulmaz",
+    "gender": "Erkek",
+    "birth_date": "2012-06-15",
+    "age": 13,
+    "phone": "+90(646)4035500",
+    "email": "akcayadak@example.com"
+  },
+  {
+    "id": 25,
+    "name": "Elgin Zeride Sakarya Güçlü",
+    "gender": "Kadın",
+    "birth_date": "1994-01-16",
+    "age": 31,
+    "phone": "+90 (025) 6278031",
+    "email": "cihandide12@example.net"
+  },
+  {
+    "id": 26,
+    "name": "Recepali Uçan Zengin",
+    "gender": "Erkek",
+    "birth_date": "1951-04-24",
+    "age": 74,
+    "phone": "+90 (908) 2428949",
+    "email": "sevenadlan@example.com"
+  },
+  {
+    "id": 27,
+    "name": "Nuretdin Yayak Durdu",
+    "gender": "Erkek",
+    "birth_date": "2020-07-05",
+    "age": 5,
+    "phone": "+90 (870) 1725144",
+    "email": "ulkerdanis@example.com"
+  },
+  {
+    "id": 28,
+    "name": "Ergül Kumral Alemdar",
+    "gender": "Erkek",
+    "birth_date": "2018-06-14",
+    "age": 7,
+    "phone": "0820 997 70 70",
+    "email": "bilayaslan@example.org"
+  },
+  {
+    "id": 29,
+    "name": "Özertem Zorlu",
+    "gender": "Erkek",
+    "birth_date": "2000-08-11",
+    "age": 24,
+    "phone": "(627)888 1740",
+    "email": "msama@example.org"
+  },
+  {
+    "id": 30,
+    "name": "Dr. Hatin Bilir Mansız",
+    "gender": "Erkek",
+    "birth_date": "1941-09-29",
+    "age": 83,
+    "phone": "+90 (488) 5506032",
+    "email": "karadeniznazende@example.com"
+  },
+  {
+    "id": 31,
+    "name": "Emine. Zengin",
+    "gender": "Erkek",
+    "birth_date": "1954-03-11",
+    "age": 71,
+    "phone": "+90(898)9626897",
+    "email": "muhyettin54@example.net"
+  },
+  {
+    "id": 32,
+    "name": "Arş. Gör. Sittik Arslan",
+    "gender": "Kadın",
+    "birth_date": "1983-02-06",
+    "age": 42,
+    "phone": "0767-037 6392",
+    "email": "emisdumanli@example.net"
+  },
+  {
+    "id": 33,
+    "name": "Zihni Dumanlı",
+    "gender": "Erkek",
+    "birth_date": "1986-07-16",
+    "age": 39,
+    "phone": "059 0 449",
+    "email": "ainonu@example.net"
+  },
+  {
+    "id": 34,
+    "name": "Mukbile Saire Akça Sezer",
+    "gender": "Kadın",
+    "birth_date": "1968-07-27",
+    "age": 57,
+    "phone": "+90(169)4326912",
+    "email": "sahir22@example.com"
+  },
+  {
+    "id": 35,
+    "name": "Yümun Yargı Yıldırım Yorulmaz",
+    "gender": "Erkek",
+    "birth_date": "1969-02-27",
+    "age": 56,
+    "phone": "+90(109)9482147",
+    "email": "recepaliyuksel@example.com"
+  },
+  {
+    "id": 36,
+    "name": "Doç. Oruç Erdogan Aslan",
+    "gender": "Kadın",
+    "birth_date": "1953-08-13",
+    "age": 71,
+    "phone": "+90(636)5762128",
+    "email": "qsezgin@example.com"
+  },
+  {
+    "id": 37,
+    "name": "Taygan Akçay",
+    "gender": "Kadın",
+    "birth_date": "1938-09-07",
+    "age": 86,
+    "phone": "934 9 619",
+    "email": "umusan09@example.net"
+  },
+  {
+    "id": 38,
+    "name": "Av. Cezayir Korkmazalp Akçay",
+    "gender": "Erkek",
+    "birth_date": "2005-12-08",
+    "age": 19,
+    "phone": "(913)140 2867",
+    "email": "bzengin@example.com"
+  },
+  {
+    "id": 39,
+    "name": "Uz. Nurdeniz Durdu Yılmaz",
+    "gender": "Kadın",
+    "birth_date": "1935-07-04",
+    "age": 90,
+    "phone": "(769)103 9847",
+    "email": "mucahitmansiz@example.net"
+  },
+  {
+    "id": 40,
+    "name": "Mufide Fildan Soylu",
+    "gender": "Kadın",
+    "birth_date": "1992-10-27",
+    "age": 32,
+    "phone": "0128-087 2478",
+    "email": "iduran@example.net"
+  },
+  {
+    "id": 41,
+    "name": "Gülhisar Sevla Sakarya",
+    "gender": "Erkek",
+    "birth_date": "1935-09-16",
+    "age": 89,
+    "phone": "07629345934",
+    "email": "oduran@example.org"
+  },
+  {
+    "id": 42,
+    "name": "Tali Akgündüz",
+    "gender": "Erkek",
+    "birth_date": "1992-04-27",
+    "age": 33,
+    "phone": "(562)435 9407",
+    "email": "alaz85@example.org"
+  },
+  {
+    "id": 43,
+    "name": "Arş. Gör. Ballı Çamurcuoğlu Akçay",
+    "gender": "Kadın",
+    "birth_date": "1965-02-11",
+    "age": 60,
+    "phone": "0864 107 18 35",
+    "email": "kisakurekesenturk@example.com"
+  },
+  {
+    "id": 44,
+    "name": "Dündaralp Baki Erdoğan",
+    "gender": "Erkek",
+    "birth_date": "1962-03-06",
+    "age": 63,
+    "phone": "427 9 273",
+    "email": "zenginkader@example.net"
+  },
+  {
+    "id": 45,
+    "name": "Dr. Deha Süzer Alemdar",
+    "gender": "Kadın",
+    "birth_date": "1975-07-07",
+    "age": 50,
+    "phone": "+90(610)712-8495x0797",
+    "email": "avunccetin@example.com"
+  },
+  {
+    "id": 46,
+    "name": "Yrd. Doç. Hatem Eraslan",
+    "gender": "Erkek",
+    "birth_date": "1949-06-01",
+    "age": 76,
+    "phone": "+90 (083) 1644351",
+    "email": "emine20@example.net"
+  },
+  {
+    "id": 47,
+    "name": "Uz. Amre Miyesser Seven Aslan",
+    "gender": "Kadın",
+    "birth_date": "1974-07-13",
+    "age": 51,
+    "phone": "+90(647)9880926",
+    "email": "kutunzorlu@example.net"
+  },
+  {
+    "id": 48,
+    "name": "Günser Mengüç Demirel Şener",
+    "gender": "Erkek",
+    "birth_date": "1951-10-30",
+    "age": 73,
+    "phone": "+90(806)9766373",
+    "email": "izel98@example.org"
+  },
+  {
+    "id": 49,
+    "name": "Emin Şafak",
+    "gender": "Kadın",
+    "birth_date": "1963-08-22",
+    "age": 61,
+    "phone": "05719214819",
+    "email": "yorulmazmuvahhide@example.net"
+  },
+  {
+    "id": 50,
+    "name": "Uz. Şeyda Hilayda Sakarya",
+    "gender": "Kadın",
+    "birth_date": "1962-04-29",
+    "age": 63,
+    "phone": "+90(496)164-1618x763",
+    "email": "durduferyas@example.org"
+  },
+  {
+    "id": 51,
+    "name": "Çev. Tülin Kutgün Fırat Şensoy",
+    "gender": "Kadın",
+    "birth_date": "1969-02-04",
+    "age": 56,
+    "phone": "+90(789)5032620",
+    "email": "ctevetoglu@example.org"
+  },
+  {
+    "id": 52,
+    "name": "Nurey Kitan Hayrioğlu",
+    "gender": "Erkek",
+    "birth_date": "1980-08-30",
+    "age": 44,
+    "phone": "0145-554 3469",
+    "email": "simtentevetoglu@example.com"
+  },
+  {
+    "id": 53,
+    "name": "Hurican Yaman Aksu",
+    "gender": "Erkek",
+    "birth_date": "2013-10-04",
+    "age": 11,
+    "phone": "+90(553)4498093",
+    "email": "erdursun47@example.org"
+  },
+  {
+    "id": 54,
+    "name": "Alparslan Tarancı Akdeniz",
+    "gender": "Kadın",
+    "birth_date": "1965-03-12",
+    "age": 60,
+    "phone": "0702-593 3106",
+    "email": "qyorulmaz@example.net"
+  },
+  {
+    "id": 55,
+    "name": "Av. Haliye Yılmaz Ergül",
+    "gender": "Kadın",
+    "birth_date": "1982-10-05",
+    "age": 42,
+    "phone": "+90(013)810-8953x9523",
+    "email": "ismiksezer@example.org"
+  },
+  {
+    "id": 56,
+    "name": "Arıpınar Hayrioğlu Seven",
+    "gender": "Erkek",
+    "birth_date": "2005-02-06",
+    "age": 20,
+    "phone": "+90(130)424-9848x588",
+    "email": "mertas@example.org"
+  },
+  {
+    "id": 57,
+    "name": "Arifcan Toker Zengin Fırat",
+    "gender": "Kadın",
+    "birth_date": "1994-12-21",
+    "age": 30,
+    "phone": "412 1 650",
+    "email": "refet99@example.org"
+  },
+  {
+    "id": 58,
+    "name": "Gökçebalan Ülfet Ergül",
+    "gender": "Kadın",
+    "birth_date": "1988-12-23",
+    "age": 36,
+    "phone": "09974381263",
+    "email": "semsettinulker@example.org"
+  },
+  {
+    "id": 59,
+    "name": "Dr. Zülbiye Güler Seven Akgündüz",
+    "gender": "Kadın",
+    "birth_date": "1998-07-18",
+    "age": 27,
+    "phone": "(637)300 6355",
+    "email": "mehmedsener@example.org"
+  },
+  {
+    "id": 60,
+    "name": "Minibe Fehmiye Alemdar",
+    "gender": "Kadın",
+    "birth_date": "1939-01-03",
+    "age": 86,
+    "phone": "930 8 914",
+    "email": "diricaneraslan@example.net"
+  },
+  {
+    "id": 61,
+    "name": "Asu Arslan Şener",
+    "gender": "Kadın",
+    "birth_date": "1954-07-03",
+    "age": 71,
+    "phone": "00319765776",
+    "email": "ogekaradeniz@example.org"
+  },
+  {
+    "id": 62,
+    "name": "Atalay Şensoy",
+    "gender": "Kadın",
+    "birth_date": "1968-08-15",
+    "age": 56,
+    "phone": "+90 (089) 8500844",
+    "email": "rakcay@example.com"
+  },
+  {
+    "id": 63,
+    "name": "Aliseydi Akçay",
+    "gender": "Kadın",
+    "birth_date": "2012-08-04",
+    "age": 12,
+    "phone": "286 7 590",
+    "email": "gucluveis@example.net"
+  },
+  {
+    "id": 64,
+    "name": "Ziyaettin Akdeniz",
+    "gender": "Erkek",
+    "birth_date": "1939-09-10",
+    "age": 85,
+    "phone": "+90(171)6337453",
+    "email": "koruturkfeyha@example.net"
+  },
+  {
+    "id": 65,
+    "name": "Uz. Mujde Eraslan Durdu",
+    "gender": "Kadın",
+    "birth_date": "1988-07-31",
+    "age": 36,
+    "phone": "+90(526)3863335",
+    "email": "guvercin36@example.net"
+  },
+  {
+    "id": 66,
+    "name": "Öğr. Sebigül Sabır Bilge Çorlu",
+    "gender": "Erkek",
+    "birth_date": "1974-08-24",
+    "age": 50,
+    "phone": "+90 (805) 2531170",
+    "email": "alize92@example.org"
+  },
+  {
+    "id": 67,
+    "name": "Lüfen Gül",
+    "gender": "Erkek",
+    "birth_date": "1948-02-19",
+    "age": 77,
+    "phone": "05775790835",
+    "email": "fenni00@example.net"
+  },
+  {
+    "id": 68,
+    "name": "Mukbile Yılmaz Karadeniz",
+    "gender": "Kadın",
+    "birth_date": "1973-08-25",
+    "age": 51,
+    "phone": "0121 796 88 94",
+    "email": "isinbilgin@example.net"
+  },
+  {
+    "id": 69,
+    "name": "Sirap Seblâ Gül",
+    "gender": "Erkek",
+    "birth_date": "1964-01-15",
+    "age": 61,
+    "phone": "+90 (097) 2384468",
+    "email": "dihsanoglu@example.org"
+  },
+  {
+    "id": 70,
+    "name": "Prof. Zebirce Ganiye Erdoğan İhsanoğlu",
+    "gender": "Kadın",
+    "birth_date": "1987-06-09",
+    "age": 38,
+    "phone": "+90(600)3243991",
+    "email": "goncafer95@example.org"
+  },
+  {
+    "id": 71,
+    "name": "Saçı İhsanoğlu Yaman",
+    "gender": "Kadın",
+    "birth_date": "1971-12-05",
+    "age": 53,
+    "phone": "0458-716 1973",
+    "email": "ulkeraysevim@example.com"
+  },
+  {
+    "id": 72,
+    "name": "Dolun Akçay",
+    "gender": "Erkek",
+    "birth_date": "1988-05-23",
+    "age": 37,
+    "phone": "+90 (094) 3034730",
+    "email": "zubeyde98@example.org"
+  },
+  {
+    "id": 73,
+    "name": "İntihap Şener",
+    "gender": "Erkek",
+    "birth_date": "1949-01-02",
+    "age": 76,
+    "phone": "+90(943)076-6765x0141",
+    "email": "kubran80@example.net"
+  },
+  {
+    "id": 74,
+    "name": "Doç. Burcuhan Uğur Sezgin",
+    "gender": "Erkek",
+    "birth_date": "1954-03-11",
+    "age": 71,
+    "phone": "735 3 079",
+    "email": "busranur37@example.org"
+  },
+  {
+    "id": 75,
+    "name": "Yrd. Doç. Kasim Şükri Hançer",
+    "gender": "Kadın",
+    "birth_date": "1978-10-02",
+    "age": 46,
+    "phone": "06140388313",
+    "email": "seblakaradeniz@example.net"
+  },
+  {
+    "id": 76,
+    "name": "Doç. Recepali Akgöl Ertaş",
+    "gender": "Erkek",
+    "birth_date": "1971-04-29",
+    "age": 54,
+    "phone": "(569)142 7128",
+    "email": "fatigulsakarya@example.net"
+  },
+  {
+    "id": 77,
+    "name": "Dincer Temuçin Şama Hançer",
+    "gender": "Erkek",
+    "birth_date": "1962-12-09",
+    "age": 62,
+    "phone": "+90 (462) 0830866",
+    "email": "akdeniznafile@example.com"
+  },
+  {
+    "id": 78,
+    "name": "Işıkay İhsanoğlu",
+    "gender": "Erkek",
+    "birth_date": "2024-05-15",
+    "age": 1,
+    "phone": "(893)254 4148",
+    "email": "zengindilfeza@example.com"
+  },
+  {
+    "id": 79,
+    "name": "Yrd. Doç. Nafile Gülenay Sakarya",
+    "gender": "Kadın",
+    "birth_date": "1978-05-11",
+    "age": 47,
+    "phone": "(879)159 0304",
+    "email": "qakdeniz@example.net"
+  },
+  {
+    "id": 80,
+    "name": "Tanhan Mertel Akar",
+    "gender": "Erkek",
+    "birth_date": "2004-03-28",
+    "age": 21,
+    "phone": "02075249666",
+    "email": "edgubaybilir@example.org"
+  },
+  {
+    "id": 81,
+    "name": "Doç. Özay Alemdar Eraslan",
+    "gender": "Erkek",
+    "birth_date": "1970-03-08",
+    "age": 55,
+    "phone": "+90(347)1996578",
+    "email": "altinbike75@example.net"
+  },
+  {
+    "id": 82,
+    "name": "Arcan Öcalan",
+    "gender": "Kadın",
+    "birth_date": "1956-10-26",
+    "age": 68,
+    "phone": "04366042562",
+    "email": "bengibay79@example.org"
+  },
+  {
+    "id": 83,
+    "name": "Toğan Bican Çamurcuoğlu Akgündüz",
+    "gender": "Erkek",
+    "birth_date": "1996-08-15",
+    "age": 28,
+    "phone": "+90(813)4294961",
+    "email": "odkanli49@example.net"
+  },
+  {
+    "id": 84,
+    "name": "Avunç Şama",
+    "gender": "Kadın",
+    "birth_date": "1953-02-24",
+    "age": 72,
+    "phone": "+90(038)6243987",
+    "email": "hakar@example.org"
+  },
+  {
+    "id": 85,
+    "name": "Av. Âlemşah Güçlü Şener",
+    "gender": "Erkek",
+    "birth_date": "1960-05-15",
+    "age": 65,
+    "phone": "0002-136 0048",
+    "email": "nurseda34@example.com"
+  },
+  {
+    "id": 86,
+    "name": "Çeviköz Tarhan",
+    "gender": "Kadın",
+    "birth_date": "2005-12-12",
+    "age": 19,
+    "phone": "0292 382 24 19",
+    "email": "firdevisertas@example.com"
+  },
+  {
+    "id": 87,
+    "name": "Akver İhsanoğlu",
+    "gender": "Erkek",
+    "birth_date": "2006-01-18",
+    "age": 19,
+    "phone": "+90(351)731-4807x8297",
+    "email": "sevennayil@example.org"
+  },
+  {
+    "id": 88,
+    "name": "Ervaniye Gül",
+    "gender": "Erkek",
+    "birth_date": "2024-10-12",
+    "age": 0,
+    "phone": "+90(933)185-6802x219",
+    "email": "erdogankardelen@example.org"
+  },
+  {
+    "id": 89,
+    "name": "Alsoy Gözel Şensoy",
+    "gender": "Erkek",
+    "birth_date": "2017-03-23",
+    "age": 8,
+    "phone": "+90(482)076-9619x372",
+    "email": "oinonu@example.org"
+  },
+  {
+    "id": 90,
+    "name": "Güler Sezgin",
+    "gender": "Erkek",
+    "birth_date": "1937-03-12",
+    "age": 88,
+    "phone": "+90(482)180-5359x377",
+    "email": "bsensoy@example.com"
+  },
+  {
+    "id": 91,
+    "name": "Bozbağ Akgündüz",
+    "gender": "Kadın",
+    "birth_date": "1958-01-10",
+    "age": 67,
+    "phone": "+90 (197) 8306230",
+    "email": "yorulmaznezihi@example.com"
+  },
+  {
+    "id": 92,
+    "name": "Çev. Pesent Akmaral Öcalan Yılmaz",
+    "gender": "Erkek",
+    "birth_date": "2000-10-08",
+    "age": 24,
+    "phone": "+90(682)263-9033x6170",
+    "email": "xguclu@example.net"
+  },
+  {
+    "id": 93,
+    "name": "Rıfkıye Akçay Güçlü",
+    "gender": "Kadın",
+    "birth_date": "1990-08-31",
+    "age": 34,
+    "phone": "+90 (998) 3308223",
+    "email": "beylerhancer@example.net"
+  },
+  {
+    "id": 94,
+    "name": "Öğr. Tonguç Bilge",
+    "gender": "Erkek",
+    "birth_date": "1968-02-12",
+    "age": 57,
+    "phone": "0205-127 6075",
+    "email": "ccetin@example.net"
+  },
+  {
+    "id": 95,
+    "name": "Över Durdali Sakarya Korutürk",
+    "gender": "Erkek",
+    "birth_date": "2013-12-19",
+    "age": 11,
+    "phone": "190 9 142",
+    "email": "gokbudunsama@example.net"
+  },
+  {
+    "id": 96,
+    "name": "Ayşan Ünübol Akdeniz",
+    "gender": "Kadın",
+    "birth_date": "1969-03-03",
+    "age": 56,
+    "phone": "01422303695",
+    "email": "zorluacikel@example.org"
+  },
+  {
+    "id": 97,
+    "name": "Selçuk Çamurcuoğlu",
+    "gender": "Erkek",
+    "birth_date": "1943-01-11",
+    "age": 82,
+    "phone": "0473-573 4186",
+    "email": "badegulakcay@example.com"
+  },
+  {
+    "id": 98,
+    "name": "Fersan Yılmaz",
+    "gender": "Erkek",
+    "birth_date": "1941-11-12",
+    "age": 83,
+    "phone": "0459-381 5639",
+    "email": "nabil36@example.org"
+  },
+  {
+    "id": 99,
+    "name": "Cebesoy Aslan",
+    "gender": "Erkek",
+    "birth_date": "1953-08-30",
+    "age": 71,
+    "phone": "+90(362)5800284",
+    "email": "cogaysezgin@example.net"
+  },
+  {
+    "id": 100,
+    "name": "Oguş Maynur Şener Tarhan",
+    "gender": "Kadın",
+    "birth_date": "1953-07-09",
+    "age": 72,
+    "phone": "05721894921",
+    "email": "alemsahmansiz@example.org"
+  }
+]

@@ -1,21 +1,11 @@
- # Hasta ile ilgili API endpointleri
-
+# Hasta ile ilgili API endpointleri
 from fastapi import APIRouter, Depends, HTTPException, status
 from typing import List
-
 from sqlalchemy.orm import Session
-
 from app import crud, schemas
 from app.database import SessionLocal
 
 router = APIRouter()
-# TEST 
-@router.get("/")
-def read_patients():
-    return [
-        {"id": 1, "name": "Ayşe Kaya", "age": 22, "address": "İzmir"},
-        {"id": 2, "name": "Mehmet Demir", "age": 36, "address": "Ankara"}
-    ]
 
 # Dependency: her istekte veritabanı oturumu açıp kapatan fonksiyon
 def get_db():
@@ -25,9 +15,14 @@ def get_db():
     finally:
         db.close()
 
-# Hastaları listele
+# Hastaları listele - TÜM kayıtları getirecek şekilde güncellendi
 @router.get("/", response_model=List[schemas.Patient])
-def read_patients(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+def read_patients(skip: int = 0, limit: int = 10000, db: Session = Depends(get_db)):
+    """
+    Tüm hastaları listeler
+    - skip: Atlanacak kayıt sayısı (pagination için)
+    - limit: Getirilecek maksimum kayıt sayısı (10000 olarak ayarlandı)
+    """
     patients = crud.get_patients(db, skip=skip, limit=limit)
     return patients
 

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Sudi Durmuş",
+    "branch": "Nöroloji",
+    "phone": "0704 893 89 43",
+    "email": "adigun47@example.org"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Zelha Akgüneş Akgündüz Durdu",
+    "branch": "Kardiyoloji",
+    "phone": "01376152530",
+    "email": "aeraslan@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Doç. Öztek Zengin",
+    "branch": "Dahiliye",
+    "phone": "09353844707",
+    "email": "arsoycerci@example.net"
+  },
+  {
+    "id": 4,
+    "name": "Kapagan Cavit Sezer Sezgin",
+    "branch": "Ortopedi",
+    "phone": "+90(238)402-3597x524",
+    "email": "verimakdeniz@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Ayten Aslan",
+    "branch": "KBB",
+    "phone": "(813)405 4953",
+    "email": "avsin13@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Fayize Şama",
+    "branch": "Göz",
+    "phone": "+90(730)7276145",
+    "email": "ocalansami@example.org"
+  },
+  {
+    "id": 7,
+    "name": "Uzsoy Durmuş",
+    "branch": "Ortopedi",
+    "phone": "+90(857)231-6511x9992",
+    "email": "asener@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Aypar Gürarda İnönü",
+    "branch": "Pediatri",
+    "phone": "+90 (509) 0871662",
+    "email": "aduran@example.org"
+  },
+  {
+    "id": 9,
+    "name": "Ertuncay Fırat",
+    "branch": "Dahiliye",
+    "phone": "+90(770)238-4511x0347",
+    "email": "erozakcay@example.net"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Mesude Şafak Demirel",
+    "branch": "Dahiliye",
+    "phone": "0623-632 8159",
+    "email": "edurdu@example.net"
+  },
+  {
+    "id": 11,
+    "name": "Neslinur Asliye Öcalan",
+    "branch": "Göz",
+    "phone": "0512 059 47 64",
+    "email": "dilfeza14@example.com"
+  },
+  {
+    "id": 12,
+    "name": "Nihai Erbil Çamurcuoğlu",
+    "branch": "Ortopedi",
+    "phone": "044 7 640",
+    "email": "secgul73@example.net"
+  },
+  {
+    "id": 13,
+    "name": "Selcen Bezek Yıldırım",
+    "branch": "Dahiliye",
+    "phone": "923 9 624",
+    "email": "sensoyfadile@example.com"
+  },
+  {
+    "id": 14,
+    "name": "Okt. Necilal Şafak Soylu",
+    "branch": "Göz",
+    "phone": "0027 867 19 22",
+    "email": "ferahdiba98@example.com"
+  },
+  {
+    "id": 15,
+    "name": "Yrd. Doç. Özüdoğru Mülâyim Dumanlı",
+    "branch": "Cildiye",
+    "phone": "+90(926)036-2620x956",
+    "email": "yakgunduz@example.com"
+  },
+  {
+    "id": 16,
+    "name": "Öğr. Açılay Alaz Duran",
+    "branch": "KBB",
+    "phone": "+90(279)0282665",
+    "email": "safiisezgin@example.net"
+  },
+  {
+    "id": 17,
+    "name": "Arş. Gör. Hamiyet Şendoğan Aslan",
+    "branch": "Nöroloji",
+    "phone": "09020830158",
+    "email": "demirelsukri@example.com"
+  },
+  {
+    "id": 18,
+    "name": "Suat Zengin",
+    "branch": "Cildiye",
+    "phone": "0557 766 74 97",
+    "email": "nebiha54@example.com"
+  },
+  {
+    "id": 19,
+    "name": "Uz. Hayrünnisa Adal Arslan Seven",
+    "branch": "Kardiyoloji",
+    "phone": "03047617109",
+    "email": "milay04@example.com"
+  },
+  {
+    "id": 20,
+    "name": "Işıkay Zengin",
+    "branch": "Göz",
+    "phone": "07799334648",
+    "email": "huruyet90@example.com"
+  }
+]

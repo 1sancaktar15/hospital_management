@@ -1,62 +1,50 @@
-# Pydantic veri doğrulama modelleri
-
 from pydantic import BaseModel
-from typing import Optional
-from datetime import datetime
 
-
-# Hasta verisi oluşturmak için istek modeli
 class PatientCreate(BaseModel):
     name: str
+    gender: str
+    birth_date: str
     age: int
-    address: Optional[str] = None
+    phone: str
+    email: str
 
-
-# Hasta verisini dışarıya vermek için gösterim modeli
 class Patient(BaseModel):
     id: int
     name: str
+    gender: str
+    birth_date: str
     age: int
-    address: Optional[str] = None
-
-    class Config:
-        orm_mode = True  # SQLAlchemy modellerini otomatik dönüştürmek için
-
-
-# Doktor verisi oluşturmak için istek modeli
-class DoctorCreate(BaseModel):
-    name: str
-    specialty: str
-
-
-# Doktor verisini dışarıya vermek için gösterim modeli
-class Doctor(BaseModel):
-    id: int
-    name: str
-    specialty: str
-
+    phone: str
+    email: str
     class Config:
         orm_mode = True
 
+class DoctorCreate(BaseModel):
+    name: str
+    branch: str
+    phone: str
+    email: str
 
-# Randevu (Appointment) için istek (create) modeli
+class Doctor(BaseModel):
+    id: int
+    name: str
+    branch: str
+    phone: str
+    email: str
+    class Config:
+        orm_mode = True
+
 class AppointmentCreate(BaseModel):
     patient_id: int
     doctor_id: int
-    appointment_time: datetime
+    date: str
+    status: str
 
-
-# Randevuyu dışarıya vermek için model
 class Appointment(BaseModel):
     id: int
     patient_id: int
     doctor_id: int
-    appointment_time: datetime
-
-    # İsteğe bağlı olarak hasta ve doktor bilgilerini içerebiliriz
-    # Patient ve Doctor modellerini kullanarak ilişki göstermek isterseniz:
-    # patient: Patient
-    # doctor: Doctor
-
+    date: str
+    status: str
     class Config:
         orm_mode = True

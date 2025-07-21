@@ -5,6 +5,9 @@ from app.config import settings
 from app.database import engine, Base
 from app.routers import patients, doctors  # Diğer router’lar da buraya eklenebilir
 
+# EKLE: Sahte veri yükleyici
+from app.initial_data import load_initial_data
+
 app = FastAPI()
 
 # Veritabanındaki tabloları oluştur (eğer yoksa)
@@ -23,6 +26,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Sahte veri yükleyici fonksiyonunu sadece server'ın ilk açılışında çağır
+@app.on_event("startup")
+def startup_load_fake_data():
+    load_initial_data()
 
 # Router’ları ekle
 app.include_router(patients.router, prefix="/patients", tags=["patients"])
