@@ -5,10 +5,15 @@ from app.config import settings
 from app.database import engine, Base
 from app.routers import patients, doctors  # Diğer router’lar da buraya eklenebilir
 
+from app.api import auth
+
+app = FastAPI()  # APP burada tanımlanmalı
+
+# Router’i eklemeden önce app olmalı
+app.include_router(auth.router, prefix="/auth", tags=["auth"])
+
 # EKLE: Sahte veri yükleyici
 from app.initial_data import load_initial_data
-
-app = FastAPI()
 
 # Veritabanındaki tabloları oluştur (eğer yoksa)
 Base.metadata.create_all(bind=engine)
@@ -21,7 +26,7 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,      # React uygulamanızın adresleri
+    allow_origins=origins,       # React uygulamanızın adresleri
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
