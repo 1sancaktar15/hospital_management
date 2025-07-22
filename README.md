@@ -71,5 +71,5 @@ Giriş yapın, hasta/doktor/randevu ekleyin, güncelleyin veya yönetin.
 ### Ekran Görüntüleri
 Ana dashboard örneği:
 
-![Dashboard Görüntüsü](/images/arayuz.png)
+![Dashboard Görüntüsü](/images/interface.png)
 
