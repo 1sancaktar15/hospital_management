@@ -1,1 +1,12 @@
 # Proje bağımlılıkları
+
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+databases
+asyncpg
+python-dotenv
+pydantic
+jose
+bcrypt

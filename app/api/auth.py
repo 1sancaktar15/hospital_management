@@ -7,9 +7,25 @@ from datetime import timedelta
 from app import schemas, crud, models
 from app.database import get_db
 from app.auth import create_access_token, ACCESS_TOKEN_EXPIRE_MINUTES
+from app.auth import has_role, has_roles
 from app.crud import verify_password
 
 router = APIRouter()
+
+@router.get("/admin/dashboard")
+def admin_dashboard(current_user: models.User = Depends(has_role("admin"))):
+    # Sadece admin erişebilir
+    return {"message": f"Merhaba {current_user.username}, admin paneline hoş geldiniz."}
+
+@router.get("/doctor-panel")
+def doctor_panel(current_user: models.User = Depends(has_role("doctor"))):
+    # Doktorlar için özel alan
+    return {"message": f"Merhaba {current_user.username}, doktor paneline hoş geldiniz."}
+
+@router.get("/common-section")
+def common_section(current_user: models.User = Depends(has_roles(["doctor", "admin"]))):
+    # Hem doktor, hem admin görebilir
+    return {"message": f"Merhaba {current_user.username}, ortak alana eriştiniz."}
 
 @router.post("/register", response_model=schemas.User)
 def register(user: schemas.UserCreate, db: Session = Depends(get_db)):

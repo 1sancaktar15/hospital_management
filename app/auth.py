@@ -13,6 +13,26 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
+def has_role(role: str):
+    def role_checker(current_user: models.User = Depends(get_current_active_user)):
+        if current_user.role != role:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=f"Bu işlem için '{role}' rolü gereklidir."
+            )
+        return current_user
+    return role_checker
+
+def has_roles(roles: list[str]):
+    def roles_checker(current_user: models.User = Depends(get_current_active_user)):
+        if current_user.role not in roles:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=f"Bu işlem için şu rollerden biri gereklidir: {', '.join(roles)}."
+            )
+        return current_user
+    return roles_checker
+
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     to_encode = data.copy()
     expire = datetime.utcnow() + (expires_delta if expires_delta else timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
