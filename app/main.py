@@ -5,12 +5,15 @@ from app.config import settings
 from app.database import engine, Base
 from app.routers import patients, doctors  # Diğer router’lar da buraya eklenebilir
 
+from app.api import admin
 from app.api import auth
 
 app = FastAPI()  # APP burada tanımlanmalı
 
 # Router’i eklemeden önce app olmalı
 app.include_router(auth.router, prefix="/auth", tags=["auth"])
+
+app.include_router(admin.router)
 
 # EKLE: Sahte veri yükleyici
 from app.initial_data import load_initial_data
