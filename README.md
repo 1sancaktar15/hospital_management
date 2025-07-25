@@ -11,7 +11,6 @@ Kullanıcı dostu yönetim paneli ve sağlam backend altyapısıyla, sağlık hi
 - Hasta, Doktor, Randevu Yönetimi  
 - Dinamik Dashboard ve İstatistikler  
 - Rol bazlı erişim (Yönetici, Kullanıcı)  
-- Güncellenen döviz kuru ve sistem durumu izleme  
 - Bildirim ve hızlı arayüz etkileşimleri  
 - RESTful API ile güçlü backend (FastAPI/Python)  
 - JWT tabanlı kimlik doğrulama  
