@@ -73,3 +73,6 @@ Ana dashboard örneği:
 
 ![Dashboard Görüntüsü](/images/interface.png)
 
+Admin Paneli:
+![Admin Panel Görüntüsü](/images/AdminPanel.png)
+
