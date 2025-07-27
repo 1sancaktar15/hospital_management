@@ -1,4 +1,3 @@
-// Sidebar.jsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
@@ -13,22 +12,18 @@ import {
 const Sidebar = () => {
   return (
     <div className="w-64 bg-gray-800 text-white min-h-screen">
-      <div className="p-4 border-b border-gray-700">
-        <h1 className="text-xl font-bold">Hastane Yönetim Sistemi </h1>
-      </div>
-      
-      <nav className="mt-5">
-        <ul className="space-y-1">
+      <nav className="pt-4">
+        <ul className="space-y-2"> {/* Increased spacing */}
           <li>
             <NavLink 
               to="/" 
               className={({isActive}) => 
-                `flex items-center p-3 hover:bg-gray-700 ${
-                  isActive ? 'bg-blue-600' : ''
+                `flex items-center p-4 text-lg hover:bg-gray-700 ${
+                  isActive ? 'bg-[#0c4a6e]' : '' /* Match navbar color */
                 }`
               }
             >
-              <FaHome className="mr-3" />
+              <FaHome className="mr-4 text-xl" /> {/* Larger icon */}
               <span>Dashboard</span>
             </NavLink>
           </li>
@@ -37,12 +32,12 @@ const Sidebar = () => {
             <NavLink 
               to="/patients" 
               className={({isActive}) => 
-                `flex items-center p-3 hover:bg-gray-700 ${
-                  isActive ? 'bg-blue-600' : ''
+                `flex items-center p-4 text-lg hover:bg-gray-700 ${
+                  isActive ? 'bg-[#0c4a6e]' : ''
                 }`
               }
             >
-              <FaUserInjured className="mr-3" />
+              <FaUserInjured className="mr-4 text-xl" /> {/* Larger icon */}
               <span>Hastalar</span>
             </NavLink>
           </li>
@@ -51,12 +46,12 @@ const Sidebar = () => {
             <NavLink 
               to="/doctors" 
               className={({isActive}) => 
-                `flex items-center p-3 hover:bg-gray-700 ${
-                  isActive ? 'bg-blue-600' : ''
+                `flex items-center p-4 text-lg hover:bg-gray-700 ${
+                  isActive ? 'bg-[#0c4a6e]' : ''
                 }`
               }
             >
-              <FaUserMd className="mr-3" />
+              <FaUserMd className="mr-4 text-xl" /> {/* Larger icon */}
               <span>Doktorlar</span>
             </NavLink>
           </li>
@@ -65,12 +60,12 @@ const Sidebar = () => {
             <NavLink 
               to="/appointments" 
               className={({isActive}) => 
-                `flex items-center p-3 hover:bg-gray-700 ${
-                  isActive ? 'bg-blue-600' : ''
+                `flex items-center p-4 text-lg hover:bg-gray-700 ${
+                  isActive ? 'bg-[#0c4a6e]' : ''
                 }`
               }
             >
-              <FaCalendarAlt className="mr-3" />
+              <FaCalendarAlt className="mr-4 text-xl" /> {/* Larger icon */}
               <span>Randevular</span>
             </NavLink>
           </li>
@@ -79,22 +74,29 @@ const Sidebar = () => {
             <NavLink 
               to="/settings" 
               className={({isActive}) => 
-                `flex items-center p-3 hover:bg-gray-700 ${
-                  isActive ? 'bg-blue-600' : ''
+                `flex items-center p-4 text-lg hover:bg-gray-700 ${
+                  isActive ? 'bg-[#0c4a6e]' : ''
                 }`
               }
             >
-              <FaCog className="mr-3" />
+              <FaCog className="mr-4 text-xl" /> {/* Larger icon */}
               <span>Ayarlar</span>
             </NavLink>
           </li>
         </ul>
         
         <div className="mt-10 border-t border-gray-700 pt-4">
-          <button className="flex items-center w-full p-3 hover:bg-gray-700">
-            <FaSignOutAlt className="mr-3" />
-            <span>Çıkış Yap</span>
-          </button>
+            <NavLink 
+              to="/logout" 
+              className={({isActive}) => 
+                `flex items-center p-4 text-lg hover:bg-gray-700 ${
+                  isActive ? 'bg-[#0c4a6e]' : ''
+                }`
+              }
+            >
+              <FaSignOutAlt className="mr-4 text-xl" /> {/* Larger icon */}
+              <span>Çıkış Yap</span>
+            </NavLink>
         </div>
       </nav>
     </div>
