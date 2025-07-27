@@ -78,3 +78,16 @@ Admin Paneli:
 Dashboard:
 ![dashboard](/images/dashboard.png)
 
+Ayarlar:
+![ayarlar](/images/ayarlar.png)
+
+Doktorlar:
+![Doktorlar](/images/doktorlar.png)
+
+Randevular:
+![randavular](/images/randevular.png)
+
+Sign-out:
+![çıkış yap](/images/signout.png)
+
+
