@@ -68,7 +68,7 @@ http://localhost:3000 adresinde frontend arayüzü açın.
 Giriş yapın, hasta/doktor/randevu ekleyin, güncelleyin veya yönetin.
 
 ### Ekran Görüntüleri
-Ana dashboard örneği:
+Hastalar:
 
 ![Dashboard Görüntüsü](/images/interface.png)
 
