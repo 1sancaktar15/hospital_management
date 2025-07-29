@@ -7,13 +7,23 @@ Kullanıcı dostu yönetim paneli ve sağlam backend altyapısıyla, sağlık hi
 
 ## Özellikler
 
-- Modern Arayüz: Responsive ve kullanıcı dostu React + Tailwind tasarımı  
-- Hasta, Doktor, Randevu Yönetimi  
-- Dinamik Dashboard ve İstatistikler  
-- Rol bazlı erişim (Yönetici, Kullanıcı)  
-- Bildirim ve hızlı arayüz etkileşimleri  
-- RESTful API ile güçlü backend (FastAPI/Python)  
-- JWT tabanlı kimlik doğrulama  
+-Modern Arayüz: Responsive ve kullanıcı dostu React + Tailwind tasarımı
+
+-Hasta, Doktor, Randevu CRUD işlemleri ve yönetimi
+
+-Faker ile oluşturulmuş sahte verilerle dinamik veri yönetimi
+
+-Karanlık mod (dark mode) desteği ve tema yönetimi
+
+-Rol bazlı erişim kontrolleri (Yönetici ve Kullanıcı)
+
+-Bildirimler ve hızlı etkileşimler için Notification Context kullanımı
+
+-RESTful API ile backend (FastAPI ve Python)
+
+-JWT tabanlı güvenli kimlik doğrulama ve yetkilendirme
+
+-SQLite veritabanı ile veri kalıcılığı ve ilişkisel yapı
 
 ---
 
